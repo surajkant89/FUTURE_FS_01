@@ -1,0 +1,43 @@
+.resume-section {
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 210mm; /* A4 width */
+  height: 297mm; /* A4 height */
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+  color: #333;
+  overflow: hidden;
+  page-break-after: always;
+}
+
+.resume-section h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.resume-content {
+  font-size: 18px; /* Increased font size to fill A4 size */
+  line-height: 2; /* Adjusted line height for better spacing */
+  color: #555;
+  padding: 20px; /* Increased padding for better layout */
+}
+
+.download-button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.download-button:hover {
+  background-color: #45a049;
+}
